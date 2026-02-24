@@ -1,3 +1,5 @@
-title: "Mi Blog de dulces"
-description: "Blog creado para la clase de Introducción al Desqarrollo de Aplicaciones de Red"
-theme: jekyll-theme-cayman
+title: Dulces Tradicionales Mexicanos
+description: Blog para la clase de Introducción al Desarrollo de Aplicaciones de Red
+theme: cayman
+baseurl: "/stephancandles.github.io"  # Importante para project pages
+url: "https://stormor01.github.io"
