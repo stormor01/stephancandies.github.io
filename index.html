@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+# Dulces Tradicionales Mexicanos
+
+Blog creado para la clase de Introducción al Desarrollo de Aplicaciones de Red.
+
+## Entradas del Blog
+
+{% for post in site.posts %}
+  - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
+{% endfor %}
